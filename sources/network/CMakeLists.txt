@@ -1,5 +1,5 @@
 target_sources(tacopie
-	PUBLIC
+	PRIVATE
 		io_service.cpp;
 		io_service.hpp;
 		self_pipe.hpp;
@@ -10,7 +10,7 @@ target_sources(tacopie
 		tcp_socket.hpp;
 )
 target_include_directories(tacopie
-	PUBLIC
+	PRIVATE
 		${CMAKE_CURRENT_SOURCE_DIR}
 )
 add_subdirectory(common)

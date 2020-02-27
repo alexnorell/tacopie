@@ -1,9 +1,9 @@
 target_sources(tacopie
-	PUBLIC
+	PRIVATE
 		unix_self_pipe.cpp;
 		unix_tcp_socket.cpp;
 )
 target_include_directories(tacopie
-	PUBLIC
+	PRIVATE
 		${CMAKE_CURRENT_SOURCE_DIR}
 )

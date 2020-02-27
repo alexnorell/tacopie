@@ -1,5 +1,5 @@
 target_sources(tacopie
-	PUBLIC
+	PRIVATE
 		error.cpp;
 		error.hpp;
 		logger.cpp;
@@ -9,6 +9,6 @@ target_sources(tacopie
 		typedefs.hpp;
 )
 target_include_directories(tacopie
-	PUBLIC
+	PRIVATE
 		${CMAKE_CURRENT_SOURCE_DIR}
 )
