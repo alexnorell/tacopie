@@ -21,8 +21,8 @@
 // SOFTWARE.
 
 #include <sstream>
-#include <tacopie/utils/logger.hpp>
-#include <tacopie/utils/thread_pool.hpp>
+#include "logger.hpp"
+#include "thread_pool.hpp"
 
 namespace tacopie {
 

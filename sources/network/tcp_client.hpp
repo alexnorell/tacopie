@@ -28,9 +28,9 @@
 #include <queue>
 #include <string>
 
-#include <tacopie/network/io_service.hpp>
-#include <tacopie/network/tcp_socket.hpp>
-#include <tacopie/utils/typedefs.hpp>
+#include "io_service.hpp"
+#include "tcp_socket.hpp"
+#include "typedefs.hpp"
 
 namespace tacopie {
 

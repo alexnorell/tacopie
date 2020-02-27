@@ -27,10 +27,10 @@
 //! some user of the lib forgot to link with it #34
 #pragma comment(lib, "ws2_32.lib")
 
-#include <tacopie/network/tcp_server.hpp>
-#include <tacopie/utils/error.hpp>
-#include <tacopie/utils/logger.hpp>
-#include <tacopie/utils/typedefs.hpp>
+#include "tcp_server.hpp"
+#include "error.hpp"
+#include "logger.hpp"
+#include "typedefs.hpp"
 
 #include <cstring>
 

@@ -26,7 +26,7 @@
 #include <stdexcept>
 #include <string>
 
-#include <tacopie/utils/logger.hpp>
+#include "logger.hpp"
 
 namespace tacopie {
 

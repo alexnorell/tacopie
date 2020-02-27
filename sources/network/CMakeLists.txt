@@ -1,0 +1,21 @@
+target_sources(tacopie
+	PUBLIC
+		io_service.cpp;
+		io_service.hpp;
+		self_pipe.hpp;
+		tcp_client.cpp;
+		tcp_client.hpp;
+		tcp_server.cpp;
+		tcp_server.hpp;
+		tcp_socket.hpp;
+)
+target_include_directories(tacopie
+	PUBLIC
+		${CMAKE_CURRENT_SOURCE_DIR}
+)
+add_subdirectory(common)
+if(WIN32)
+	add_subdirectory(windows)
+else()
+	add_subdirectory(unix)
+endif()

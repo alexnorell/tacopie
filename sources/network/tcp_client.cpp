@@ -20,9 +20,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-#include <tacopie/network/tcp_client.hpp>
-#include <tacopie/utils/error.hpp>
-#include <tacopie/utils/logger.hpp>
+#include "tcp_client.hpp"
+#include "error.hpp"
+#include "logger.hpp"
 
 namespace tacopie {
 

@@ -23,9 +23,9 @@
 //! guard for bulk content integration depending on how user integrates the library
 #ifndef _WIN32
 
-#include <tacopie/network/tcp_server.hpp>
-#include <tacopie/utils/error.hpp>
-#include <tacopie/utils/logger.hpp>
+#include "tcp_server.hpp"
+#include "error.hpp"
+#include "logger.hpp"
 
 #include <cstring>
 

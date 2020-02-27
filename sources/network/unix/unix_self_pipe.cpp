@@ -23,8 +23,8 @@
 //! guard for bulk content integration depending on how user integrates the library
 #ifndef _WIN32
 
-#include <tacopie/network/self_pipe.hpp>
-#include <tacopie/utils/error.hpp>
+#include "self_pipe.hpp"
+#include "error.hpp"
 
 #include <fcntl.h>
 #include <unistd.h>

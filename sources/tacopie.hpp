@@ -27,14 +27,14 @@
 #endif /* _WIN32 */
 
 //! utils
-#include <tacopie/utils/error.hpp>
-#include <tacopie/utils/logger.hpp>
-#include <tacopie/utils/typedefs.hpp>
+#include "error.hpp"
+#include "logger.hpp"
+#include "typedefs.hpp"
 
 //! network
-#include <tacopie/network/io_service.hpp>
-#include <tacopie/network/tcp_server.hpp>
-#include <tacopie/network/tcp_socket.hpp>
+#include "io_service.hpp"
+#include "tcp_server.hpp"
+#include "tcp_socket.hpp"
 
 //! utils
-#include <tacopie/utils/thread_pool.hpp>
+#include "thread_pool.hpp"

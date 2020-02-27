@@ -29,10 +29,10 @@
 #include <mutex>
 #include <string>
 
-#include <tacopie/network/io_service.hpp>
-#include <tacopie/network/tcp_client.hpp>
-#include <tacopie/network/tcp_socket.hpp>
-#include <tacopie/utils/typedefs.hpp>
+#include "io_service.hpp"
+#include "tcp_client.hpp"
+#include "tcp_socket.hpp"
+#include "typedefs.hpp"
 
 #define __TACOPIE_CONNECTION_QUEUE_SIZE 1024
 

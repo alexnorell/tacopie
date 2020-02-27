@@ -22,7 +22,7 @@
 
 #include <iostream>
 
-#include <tacopie/utils/logger.hpp>
+#include "logger.hpp"
 
 namespace tacopie {
 

@@ -1,0 +1,14 @@
+target_sources(tacopie
+	PUBLIC
+		error.cpp;
+		error.hpp;
+		logger.cpp;
+		logger.hpp;
+		thread_pool.cpp;
+		thread_pool.hpp;
+		typedefs.hpp;
+)
+target_include_directories(tacopie
+	PUBLIC
+		${CMAKE_CURRENT_SOURCE_DIR}
+)

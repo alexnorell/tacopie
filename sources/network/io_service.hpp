@@ -37,9 +37,9 @@
 #include <sys/select.h>
 #endif /* _WIN32 */
 
-#include <tacopie/network/self_pipe.hpp>
-#include <tacopie/network/tcp_socket.hpp>
-#include <tacopie/utils/thread_pool.hpp>
+#include "self_pipe.hpp"
+#include "tcp_socket.hpp"
+#include "thread_pool.hpp"
 
 #ifndef __TACOPIE_IO_SERVICE_NB_WORKERS
 #define __TACOPIE_IO_SERVICE_NB_WORKERS 1

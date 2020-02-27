@@ -1,0 +1,9 @@
+target_sources(tacopie
+	PUBLIC
+		windows_self_pipe.cpp;
+		windows_tcp_socket.cpp;
+)
+target_include_directories(tacopie
+	PUBLIC
+		${CMAKE_CURRENT_SOURCE_DIR}
+)
