@@ -1,4 +1,4 @@
-add_library(tacopie)
+add_library(tacopie STATIC)
 target_sources(tacopie
 	PUBLIC
 		tacopie.hpp;
